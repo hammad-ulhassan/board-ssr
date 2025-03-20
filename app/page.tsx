@@ -1,5 +1,11 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
-    <p>Hello Board!</p>
+    <>
+    <Button size={"sm"}>Click me</Button>
+    <Button size={"lg"}>Click me</Button>
+    <Button size={"lg"} variant={"ghost"}>Click me</Button>
+    </>
   );
 }
